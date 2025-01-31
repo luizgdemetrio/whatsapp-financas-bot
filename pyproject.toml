@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "whatsapp-financas-bot"
+version = "0.1.0"
+description = ""
+authors = ["Luiz <lgds.demtrio@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+selenium = "^4.28.1"
+flask = "^3.1.0"
+python-dotenv = "^1.0.1"
+webdriver-manager = "^4.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+selenium = "^4.28.1"
+webdriver-manager = "^4.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
